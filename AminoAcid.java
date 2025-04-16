@@ -9,10 +9,10 @@ public class AminoAcid {
     // Constructor to create a new AminoAcid object with a full name and abbreviation
     public AminoAcid(String name, String code)
     {
-        fullName = name;                   // Set the full name
-        abbreviation = code;               // Set the abbreviation
-        codons = new ArrayList<String>();  // Create a new list to hold codons
-        codonCounter = new ArrayList<Integer>(); // Create a new list to hold counts for each codon
+        this.fullName = name;                   // Set the full name
+        this.abbreviation = code;               // Set the abbreviation
+        this.codons = new ArrayList<String>();  // Create a new list to hold codons
+        this.codonCounter = new ArrayList<Integer>(); // Create a new list to hold counts for each codon
     }
 
     // Method to add a codon to the list of codons for this amino acid
